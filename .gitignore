@@ -1,0 +1,7 @@
+# dependencies
+node_modules
+
+.vscode
+
+src/css/main.css.map
+package-lock.json

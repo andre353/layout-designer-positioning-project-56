@@ -1,0 +1,15 @@
+/* =======================Basic titles styles======================== */
+
+@mixin h-styles($fs: 38px, $lh: 57px, $fw: bold, $text-reg: uppercase) {
+  font-size: $fs;
+  line-height: $lh;
+  font-weight: $fw;
+  text-transform: $text-reg;
+}
+
+/* ========================Media Queries======================== */
+@mixin media($breakpoint) {
+  @media screen and (max-width: $breakpoint) {
+    @content;
+  }
+}

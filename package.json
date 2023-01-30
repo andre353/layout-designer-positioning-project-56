@@ -1,0 +1,33 @@
+{
+  "name": "layout-designer-positioning-project-56",
+  "version": "1.0.0",
+  "description": "II Hexlet Project: CSS positioning, Flex, Grid, Adaptivity",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/main.css",
+    "start": "npm run compile:sass && npm run compile:sass -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andre353/layout-designer-positioning-project-56.git"
+  },
+  "keywords": [
+    "CSS",
+    "SCSS",
+    "Flex",
+    "Grid",
+    "Adaptivity"
+  ],
+  "author": "EVA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andre353/layout-designer-positioning-project-56/issues"
+  },
+  "homepage": "https://github.com/andre353/layout-designer-positioning-project-56#readme",
+  "devDependencies": {
+    "sass": "^1.57.1",
+    "stylelint": "^14.16.1",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-config-standard-scss": "^6.1.0"
+  }
+}
